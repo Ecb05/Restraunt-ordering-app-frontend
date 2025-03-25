@@ -1,40 +1,48 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import fetchData from "../utils/fetchData";
+import MenuItemGrid from "../components/MenuItemGrid";
 
-
-const menuItems = [
-  { id: 1, name: "Teriyaki Sirloin Steak", price: "12.25£", image: "steak.jpg", cuisine: "Teppanyaki" },
-  { id: 2, name: "Teriyaki Salmon Soba", price: "12.25£", image: "salmon.jpg", cuisine: "Teppanyaki" },
-  { id: 3, name: "Ginger Chicken Udon", price: "9.50£", image: "udon.jpg", cuisine: "Ramen" },
-  { id: 4, name: "Yaki Soba", price: "8.25£", image: "soba.jpg", cuisine: "Teppanyaki" }
-];
+interface Dish {
+  id: number;
+  name: string;
+  price: string;
+  category: string;
+  image: string;
+  description: string;
+}
 
 export default function Home() {
-  const [selectedCuisine, setSelectedCuisine] = useState("All");
+  const [dishes, setDishes] = useState<Dish[]>([]);
+  
 
-  const filteredMenu = selectedCuisine === "All"
-    ? menuItems
-    : menuItems.filter(item => item.cuisine === selectedCuisine);
+  // Fetch data from the JSON file
+  useEffect(() => {
+    const loadDishes = async () => {
+      try {
+        const data = await fetchData("popular");
+        setDishes(data);
+      } catch (error) {
+        console.error("Error fetching Popular dishes data:", error);
+      }
+    };
 
+    loadDishes();
+  }, []);
+ 
   return (
-    <div className="flex flex-col h-screen">
-      {/* Navbar */}
-     
+    <div className="min-h-screen bg-white flex flex-col pb-20">
+      {/* Filter Section */}
+      
 
-      {/* Menu Grid */}
-      <div className="flex-1 overflow-y-auto p-4 grid grid-cols-2 gap-4">
-        {filteredMenu.map(({ id, name, price, image }) => (
-          <div key={id} className="bg-white p-2 rounded-lg shadow-md">
-            <img src={image} alt={name} className="w-full rounded-md" />
-            <div className="mt-2 text-center">
-              <p className="font-semibold">{name}</p>
-              <p className="text-gray-600">{price}</p>
-            </div>
-          </div>
-        ))}
-      </div>
+      {/* Menu Items */}
+      {dishes.length > 0 ? (
+        <MenuItemGrid dishes={dishes} />
+      ) : (
+        <p className="text-center text-gray-500 mt-10">No items available.</p>
+      )}
 
       {/* Order Button */}
-      <div className="fixed bottom-0 left-0 w-full bg-black text-white text-center p-4 text-lg cursor-pointer">
+      <div className="fixed bottom-0 left-0 right-0 bg-black text-white text-lg font-bold text-center py-3">
         Order
       </div>
     </div>

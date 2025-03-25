@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Teriyaki Sirloin Steak Soba",
+    "price": "12.25 £",
+    "category": "Tepanyaki",
+    "image": "/images/tepanyaki_images/teriyaki_steak.webp",
+    "description": "Grilled sirloin steak with soba noodles cooked in curry oil with mangetout, bok choi, red and spring onions, chilli and beansprouts in a teriyaki sauce. Garnished with coriander and sesame seeds."
+  },
+  {
+    "id": 2,
+    "name": "Chicken Katsu Curry",
+    "price": "10.99 £",
+    "category": "Curry",
+    "image": "/images/curry_images/chicken_katsu_curry.webp",
+    "description": "Crispy panko-coated chicken served with a mild curry sauce, rice, and a side salad."
+  },
+  {
+    "id": 3,
+    "name": "Spicy Miso Ramen",
+    "price": "10.75 £",
+    "category": "Chicken",
+    "image": "/images/ramen_images/spicy_miso_ramen.webp",
+    "description": "Bold miso broth with minced chicken, bean sprouts, and corn."
+  },
+  
+  {
+    "id": 4,
+    "name": "Shoyu Ramen",
+    "price": "9.95 £",
+    "category": "Chicken",
+    "image": "/images/ramen_images/shoyu_ramen.webp",
+    "description": "Classic soy-based ramen with marinated chicken and bamboo shoots."
+  }
+]

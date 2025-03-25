@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Prawn Raisukaree",
+    "price": "12.00 £",
+    "category": "Prawn",
+    "image": "/images/curry_images/prawn_raisukaree.webp",
+    "description": "A fragrant coconut curry with prawns, peppers, red onion, and lime."
+  },
+  {
+    "id": 2,
+    "name": "Chicken Raisukaree",
+    "price": "10.95 £",
+    "category": "Chicken",
+    "image": "/images/curry_images/chicken_raisukaree.webp",
+    "description": "Mild and aromatic coconut curry with chicken, coriander, and fresh lime."
+  },
+  {
+    "id": 3,
+    "name": "Firecracker Prawn",
+    "price": "11.00 £",
+    "category": "Prawn",
+    "image": "/images/curry_images/firecracker_prawn.webp",
+    "description": "Fiery hot curry with prawns, onions, peppers, and chillies."
+  },
+  {
+    "id": 4,
+    "name": "Firecracker Chicken",
+    "price": "9.95 £",
+    "category": "Chicken",
+    "image": "/images/curry_images/firecracker_chicken.webp",
+    "description": "Spicy and bold chicken curry with red chilies and a sweet-hot sauce."
+  },
+  {
+    "id": 5,
+    "name": "Vegetable Katsu Curry",
+    "price": "8.50 £",
+    "category": "Veg",
+    "image": "/images/curry_images/veg_katsu_curry.webp",
+    "description": "Crispy breaded aubergine and sweet potato with mild curry sauce."
+  },
+  {
+    "id": 6,
+    "name": "Chicken Katsu Curry",
+    "price": "9.75 £",
+    "category": "Chicken",
+    "image": "/images/curry_images/chicken_katsu_curry.webp",
+    "description": "Breaded chicken cutlet with Japanese-style mild curry sauce."
+  },
+  {
+    "id": 7,
+    "name": "Beef Massaman Curry",
+    "price": "11.50 £",
+    "category": "Beef",
+    "image": "/images/curry_images/beef_massaman.webp",
+    "description": "Rich Thai-inspired curry with beef, potatoes, and peanuts."
+  },
+  {
+    "id": 8,
+    "name": "Tofu Katsu Curry",
+    "price": "8.75 £",
+    "category": "Veg",
+    "image": "/images/curry_images/tofu_katsu_curry.webp",
+    "description": "Breaded tofu served with a mild curry sauce and rice."
+  }
+]

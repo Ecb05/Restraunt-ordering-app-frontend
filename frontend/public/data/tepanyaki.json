@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Teriyaki Sirloin Steak Soba",
+    "price": "12.25 £",
+    "category": "Beef",
+    "image": "/images/tepanyaki_images/teriyaki_steak.webp",
+    "description": "Grilled sirloin steak with soba noodles in teriyaki sauce."
+  },
+  {
+    "id": 2,
+    "name": "Teriyaki Salmon Soba",
+    "price": "12.25 £",
+    "category": "Fish",
+    "image": "/images/tepanyaki_images/teriyaki_salmon.webp",
+    "description": "Grilled salmon with soba noodles in a sweet soy glaze."
+  },
+  {
+    "id": 3,
+    "name": "Ginger Chicken Udon",
+    "price": "9.50 £",
+    "category": "Chicken",
+    "image": "/images/tepanyaki_images/ginger_chicken_udon.webp",
+    "description": "Thick udon noodles with stir-fried chicken and ginger sauce."
+  },
+  {
+    "id": 4,
+    "name": "Yaki Soba",
+    "price": "8.25 £",
+    "category": "Veg",
+    "image": "/images/tepanyaki_images/yaki_soba.webp",
+    "description": "Wok-fried soba noodles with vegetables and soy sauce."
+  },
+  {
+    "id": 5,
+    "name": "Beef Teppanyaki",
+    "price": "13.50 £",
+    "category": "Beef",
+    "image": "/images/tepanyaki_images/beef_tepanyaki.webp",
+    "description": "Grilled beef with seasonal vegetables and a garlic soy sauce."
+  },
+  {
+    "id": 6,
+    "name": "Prawn & Chicken Soba",
+    "price": "11.75 £",
+    "category": "Prawn & Chicken",
+    "image": "/images/tepanyaki_images/prawn_chicken_soba.webp",
+    "description": "Wok-fried soba noodles with prawns, chicken, and egg."
+  },
+  {
+    "id": 7,
+    "name": "Tofu & Mushroom Udon",
+    "price": "9.95 £",
+    "category": "Veg",
+    "image": "/images/tepanyaki_images/tofu_mushroom_udon.webp",
+    "description": "Soft udon noodles with tofu, mushrooms, and miso glaze."
+  },
+  {
+    "id": 8,
+    "name": "Spicy Beef Yaki Udon",
+    "price": "10.75 £",
+    "category": "Beef",
+    "image": "/images/tepanyaki_images/spicy_beef_yaki_udon.webp",
+    "description": "Spicy stir-fried udon noodles with beef and sesame."
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Chili Chicken Ramen",
+    "price": "10.50 £",
+    "category": "Chicken",
+    "image": "/images/ramen_images/chili_chicken_ramen.webp",
+    "description": "Spicy ramen broth with grilled chicken, egg, and spring onions."
+  },
+  {
+    "id": 2,
+    "name": "Shoyu Ramen",
+    "price": "9.95 £",
+    "category": "Chicken",
+    "image": "/images/ramen_images/shoyu_ramen.webp",
+    "description": "Classic soy-based ramen with marinated chicken and bamboo shoots."
+  },
+  {
+    "id": 3,
+    "name": "Pork Belly Ramen",
+    "price": "11.25 £",
+    "category": "Pork",
+    "image": "/images/ramen_images/pork_belly_ramen.webp",
+    "description": "Rich tonkotsu broth with slow-cooked pork belly and a soft-boiled egg."
+  },
+  {
+    "id": 4,
+    "name": "Spicy Miso Ramen",
+    "price": "10.75 £",
+    "category": "Chicken",
+    "image": "/images/ramen_images/spicy_miso_ramen.webp",
+    "description": "Bold miso broth with minced chicken, bean sprouts, and corn."
+  },
+  {
+    "id": 5,
+    "name": "Seafood Ramen",
+    "price": "12.00 £",
+    "category": "Prawn",
+    "image": "/images/ramen_images/seafood_ramen.webp",
+    "description": "Light seafood broth with prawns, squid, and seasonal greens."
+  },
+  {
+    "id": 6,
+    "name": "Vegetable Ramen",
+    "price": "9.25 £",
+    "category": "Veg",
+    "image": "/images/ramen_images/veg_ramen.webp",
+    "description": "Clear vegetable broth with tofu, mushrooms, and bok choy."
+  },
+  {
+    "id": 7,
+    "name": "Tantanmen Ramen",
+    "price": "11.50 £",
+    "category": "Pork",
+    "image": "/images/ramen_images/tantanmen_ramen.webp",
+    "description": "Spicy and nutty ramen with minced pork and chili oil."
+  },
+  {
+    "id": 8,
+    "name": "Duck Ramen",
+    "price": "12.75 £",
+    "category": "Duck",
+    "image": "/images/ramen_images/duck_ramen.webp",
+    "description": "Rich duck broth with sliced duck breast and bamboo shoots."
+  }
+]

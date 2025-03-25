@@ -4,7 +4,7 @@ const CuisineNav = ({ active }: { active: string }) => {
   const navigate = useNavigate();
 
   const navItems = [
-    { name: "Favourites", icon: "❤️", path: "/menu/favourites" },
+    { name: "Favorites", icon: "❤️", path: "/menu/favorites" },
     { name: "Popular", icon: "👌", path: "/menu/popular" },
     { name: "Curry", icon: "🍚", path: "/menu/curry" },
     { name: "Ramen", icon: "🍜", path: "/menu/ramen" },
